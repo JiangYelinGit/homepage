@@ -1,0 +1,21 @@
+{
+  "name": "homepage",
+  "version": "0.1.0",
+  "summary": "videochat首页模块",
+  "homepage": "https://github.com/jiangyelin/homepage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiangyelin": "897134699@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jiangyelin/homepage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "homepage/Classes/**/*"
+}

@@ -17,13 +17,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    Class HomePageVC = NSClassFromString(@"HomePageVC");
+    id homePageVC = [[HomePageVC alloc] init];
+    if ([homePageVC isKindOfClass:[UIViewController class]]) {
+        UIViewController *vc = (UIViewController *)homePageVC;
+        [self presentViewController:vc animated:YES completion:nil];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
