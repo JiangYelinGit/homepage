@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'homepage/Classes/**/*'
+  s.source_files = 'homepage/Classes/*'
   
   # s.resource_bundles = {
   #   'homepage' => ['homepage/Assets/*.png']
