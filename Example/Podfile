@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'homepage_Example' do
+  pod 'homepage', :path => '../'
+
+  target 'homepage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
